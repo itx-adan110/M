@@ -216,6 +216,15 @@ h1 {
   letter-spacing: -.055em;
   margin-bottom: 10px;
 }
+.hero-title {
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .hero-title {
+    font-size: clamp(2rem, 9vw, 4.5rem);
+  }
+}
 h2 {
   font-size: clamp(28px,3.4vw,40px);
   letter-spacing: -.045em;
